@@ -1,4 +1,4 @@
-@user =  User.create!(first_name: "Mark", last_name: "Albright", email: "test@test.com", password: "asdfasdf", password_confirmation: "asdfasdf")
+@user =  User.create!(first_name: "Jon", last_name: "Snow", email: "test@test.com", password: "asdfasdf", password_confirmation: "asdfasdf")
 
 
 puts "1 User created"

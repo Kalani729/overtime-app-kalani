@@ -3,7 +3,7 @@
 
 puts "1 User created"
 
-AdminUser.create!(first_name: "Admin", last_name: "User", email: "test1@test.com", password: "asdfasdf", password_confirmation: "asdfasdf")
+AdminUser.create!(first_name: "Admin", last_name: "User", email: "admin@test.com", password: "asdfasdf", password_confirmation: "asdfasdf")
 
 
 puts "1 Admin User created"

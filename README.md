@@ -22,3 +22,4 @@
 ## Refactor TODOS:
 - x Add full_name method for users
 - Refactor user association integration test ink post_spec
+- Refacto posts/_form for admin user with status

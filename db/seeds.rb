@@ -9,7 +9,7 @@ AdminUser.create!(first_name: "Admin", last_name: "User", email: "admin@test.com
 puts "1 Admin User created"
 
 10.times do |post|
-  Post.create!(date: Date.today, rationale: "#{post} rationale content", user_id: @user.id)
+  Post.create!(date: Date.today, rationale: "#{post} rationale content", user_id: @user.id, overtime_request: 2.5)
 end
 
 puts "10 Posts have been created"

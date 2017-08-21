@@ -19,7 +19,6 @@
 - Icons from Font Awesome
 - x Upadte the styles for forms
 
-## Refactor TODOS:
-- x Add full_name method for users
-- Refactor user association integration test ink post_spec
-- Refactor posts/_form for admin user with status
+##  TODOS:
+- Integrate validation for phone attr in User
+  

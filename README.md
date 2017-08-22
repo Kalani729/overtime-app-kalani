@@ -20,5 +20,25 @@
 - Icons from Font Awesome
 - x Upadte the styles for forms
 
-##  TODOS:
-- Integrate validation for phone attr in User
+##  Audit Log:
+
+Goal of audit log:
+
+Keep track of an employee's overtime or not
+
+Dependencies:
+- User
+
+Attrs:
+- Status:integer (enum) -> pending, complete
+- start_date:date -> default previous Monday
+- date_verified
+
+
+monday
+|
+|
+|
+sunday --- notification 
+
+rails g resource AuditLog user:references status:integer start_date:date end_date:date

@@ -1,4 +1,4 @@
-.pending-overtime-approvals {
+.pending-homepage {
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: #e3e3e3;
@@ -8,11 +8,16 @@
   padding: 20px;
 }
 
-.pending-submissions {
+.homepage-block {
   background-color: #1d3c91;
   color: white;
-  margin: 15px;
+  margin: 42px;
+  padding: 15px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+}
+
+.pending-details {
+  font-weight: 900;
 }

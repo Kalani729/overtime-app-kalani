@@ -9,6 +9,6 @@ class AuditLogsController < ApplicationController
 		authorize audit_log
 		audit_log.confirmed!
 		redirect_to root_path, notice: "Thank you, your confirmation has been successfully made."
-		end
+
 	end
 end
